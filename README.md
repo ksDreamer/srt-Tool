@@ -2,7 +2,7 @@
 A command-line tool to convert `.srt` subtitle files into plain text (`.txt`/`.md`/`.doc`, etc.) documents. Built with the [srt library](https://pypi.org/project/srt/). 
 
 Author: Kevin Stark  
-Date: 2025-07-12  
+Date: 2025-07-13   
 Version: 1.0  
 License: MIT License  
 GitHub: https://github.com/ksDreamer/subtitle-Tool  
@@ -30,3 +30,9 @@ To specify your input and output files, provide them as command-line arguments.
 python main.py <input_file.srt> <output_file.txt>
 ```
 Example: `python main.py my_subtitle.srt transcript.txt` will convert `my_subtitle.srt` into a text file named `transcript.txt`.
+
+## TODO
+- [ ] Support other subtitle format, eg., `.ass`.
+- [ ] Set default output name based on input name.
+- [ ] Consider GUI layout and function.
+- [ ] Deploy online service.

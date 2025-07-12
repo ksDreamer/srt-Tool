@@ -5,7 +5,7 @@ import srt
 A command-line tool to convert `.srt` subtitle files into plain text (`.txt`/`.md`/`.doc`, etc.) documents. Built with the [srt library](https://pypi.org/project/srt/). 
 
 Author: Kevin Stark  
-Date: 2025-07-12  
+Date: 2025-07-13  
 Version: 1.0  
 License: MIT License  
 GitHub: https://github.com/ksDreamer/subtitle-Tool  
