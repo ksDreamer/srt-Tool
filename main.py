@@ -2,12 +2,13 @@ import sys
 import srt
 
 '''
-A tool using [srt library](https://pypi.org/project/srt/) to convert `.srt` format subtitle file into plain text article.
+A command-line tool to convert `.srt` subtitle files into plain text (`.txt`/`.md`/`.doc`, etc.) documents. Built with the [srt library](https://pypi.org/project/srt/). 
+
 Author: Kevin Stark  
 Date: 2025-07-12  
 Version: 1.0  
 License: MIT License  
-GitHub: https://github.com/ksDreamer/srt-Tool  
+GitHub: https://github.com/ksDreamer/subtitle-Tool  
 Email: gmy.kevinstark@gmail.com
 '''
 
@@ -63,17 +64,17 @@ def main():
         input_file = args[0]
         output_file = args[1]
 
-    print("\n" + "=" * 20 + "srt Tool" + "=" * 20)
+    print("\n" + "=" * 20 + "Subtitle Tool" + "=" * 20)
     
     if len(args) > 0 and args[0] in ['-h', '--help', 'help']:
         print("Usage:")
-        print("  python srtTool.py [input.srt] [output.txt]")
+        print("  python main.py [input.srt] [output.txt]")
         print()
         print("Examples:")
-        print("  python srtTool.py                     # Use default file names: input.srt and output.txt")
-        print("  python srtTool.py <inputFileName.srt>          # Custom input")
-        print("  python srtTool.py <outputFileName.txt>         # Custom output")
-        print("  python srtTool.py <inputFileName.srt> <outputFileName.txt>  # Custom both")
+        print("  python main.py                     # Use default file names: input.srt and output.txt")
+        print("  python main.py <inputFileName.srt>          # Custom input")
+        print("  python main.py <outputFileName.txt>         # Custom output")
+        print("  python main.py <inputFileName.srt> <outputFileName.txt>  # Custom both")
 
         sys.exit(0)
     
