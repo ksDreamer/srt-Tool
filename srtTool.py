@@ -7,7 +7,7 @@ Author: Kevin Stark
 Date: 2025-07-12  
 Version: 1.0  
 License: MIT License  
-GitHub: https://github.com/ksDreamer/srtTool  
+GitHub: https://github.com/ksDreamer/srt-Tool  
 Email: gmy.kevinstark@gmail.com
 '''
 
