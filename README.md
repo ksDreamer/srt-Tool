@@ -36,3 +36,4 @@ Example: `python main.py my_subtitle.srt transcript.txt` will convert `my_subtit
 - [ ] Set default output name based on input name.
 - [ ] Consider GUI layout and function.
 - [ ] Deploy online service.
+- [ ] Add batch processing and folder support.
