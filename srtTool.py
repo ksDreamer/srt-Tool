@@ -2,12 +2,12 @@ import sys
 import srt
 
 '''
-srtTool.py - A tool using ['srt' library](https://pypi.org/project/srt/) to convert .srt format subtitle files into plain text articles.
-Author: Kevin Stark
-Date: 2025-07-12
-Version: 1.0
-License: MIT License
-GitHub: https://github.com/ksDreamer/srtTool
+A tool using [srt library](https://pypi.org/project/srt/) to convert `.srt` format subtitle file into plain text article.
+Author: Kevin Stark  
+Date: 2025-07-12  
+Version: 1.0  
+License: MIT License  
+GitHub: https://github.com/ksDreamer/srtTool  
 Email: gmy.kevinstark@gmail.com
 '''
 
