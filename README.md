@@ -9,10 +9,8 @@ GitHub: https://github.com/ksDreamer/srtTool
 Email: gmy.kevinstark@gmail.com
 
 ## Prerequisites
-1. Prepare python package 
-```pip install srt```  
-2. Prepare a subtitle file in `.srt` format.  
-For example, `input.srt` or `example.srt`
+1. Prepare python package library by `pip install srt`
+2. Prepare a subtitle file in `.srt` format. (eg., `input.srt`)
 
 ## Usage
 You can run the script in two ways.
